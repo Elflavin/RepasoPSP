@@ -1,0 +1,342 @@
+Una secuencia de estados de un proceso podría ser
+
+Pregunta 1Respuesta
+
+a.
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo usuario ➝ Zombi
+
+
+b.
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo núcleo ➝ Expropiado ➝ Zombi
+
+
+c.
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo núcleo ➝ Dormido en memoria principal ➝ Preparado para ejecución en memoria principal ➝ Zombi
+
+
+d.
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo núcleo ➝ Zombi
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo núcleo ➝ Zombi
+
+Pregunta 2
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Cómo se relaciona un hilo y un proceso?
+
+Pregunta 2Respuesta
+
+a.
+Los procesos y los hilos son independientes
+
+
+b.
+Todos los hilos tienen al menos un proceso en ejecución.
+
+
+c.
+Los hilos se ejecutan dentro del contexto de un proceso
+
+
+d.
+Los procesos se ejecutan dentro del contexto de un hilo
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Los hilos se ejecutan dentro del contexto de un proceso
+
+Pregunta 3
+Incorrecta
+Se puntúa -0,08 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Es más barato en términos de uso de memoria y otros recurso, crear nuevos procesos que crear nuevos hilos?
+
+Pregunta 3Respuesta
+
+a.
+Depende del sistema operativo
+
+
+b.
+Depende del número de núcleos
+
+
+c.
+Verdadero
+
+
+d.
+Falso
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Falso
+
+Pregunta 4
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Qué es un proceso?
+
+Pregunta 4Respuesta
+
+a.
+Es la unidad básica de utilización de la CPU
+
+
+b.
+Es un programa en ejecución
+
+
+c.
+Es un fichero ejecutable
+
+
+d.
+Es una parte fundamental del sistema operativo que se encarga de conceder el acceso al hardware de forma segura.
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Es un programa en ejecución
+
+Pregunta 5
+Incorrecta
+Se puntúa -0,08 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿La capacidad de respuesta de un programa aumenta al crear nuevos procesos?
+
+Pregunta 5Respuesta
+
+a.
+Verdadero
+
+
+b.
+Depende del número de núcleos
+
+
+c.
+Depende del sistema operativo
+
+
+d.
+Falso
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Falso
+
+Pregunta 6
+Incorrecta
+Se puntúa -0,08 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Qué es la programación paralela?
+
+Pregunta 6Respuesta
+
+a.
+Es una técnica de ejecución de un programa en una red de procesadores autónomos que no comparten una memoria común
+
+
+b.
+Es una técnica que utiliza una multiplicidad de hardware computacional (por ejemplo, varios núcleos de procesador) para realizar un cálculo más rápidamente
+
+
+c.
+Ninguna de las respuestas es correcta
+
+
+d.
+Es una técnica de estructuración de los programas en la que hay múltiples hilos de control o procesos, que, conceptualmente, se ejecutan “al mismo tiempo”
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Es una técnica que utiliza una multiplicidad de hardware computacional (por ejemplo, varios núcleos de procesador) para realizar un cálculo más rápidamente
+
+Pregunta 7
+Sin contestar
+Puntúa como 0,25
+Marcar pregunta
+Enunciado de la pregunta
+Indica que ventaja NO es atribuible a programas distribuidos
+
+Pregunta 7Respuesta
+
+a.
+Un programa distribuido puede hacer un uso más eficiente de los recursos de la red
+
+
+b.
+Un programa distribuido puede explotar un entorno heterogéneo, donde ciertos recursos están disponibles sólo para ciertas máquinas
+
+
+c.
+Un programa distribuido puede hacer uso de programación concurrente
+
+
+d.
+Un programa distribuido siempre se ejecuta en menos tiempo
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Un programa distribuido siempre se ejecuta en menos tiempo
+
+Pregunta 8
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+Indica que afirmación NO es correcta
+
+Pregunta 8Respuesta
+
+a.
+Cada hilo tiene su propio registro
+
+
+b.
+Cada hilo tiene su propia pila
+
+
+c.
+Cada hilo tiene su propio contador de programa
+
+
+d.
+Cada hilo tiene su propio espacio de direcciones
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Cada hilo tiene su propio espacio de direcciones
+
+Pregunta 9
+Incorrecta
+Se puntúa -0,08 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+Los modelos de programación concurrente son
+
+Pregunta 9Respuesta
+
+a.
+Determinista
+
+
+b.
+Dependiendo de la programación que se lleve a cabo a veces se pueden comportar de una forma determinista y otras no deterministas
+
+
+c.
+No determinista
+
+
+d.
+Dependiendo de la máquina dónde se ejecute el mismo programa se pueden comportar de una forma determinista y otras no deterministas
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+No determinista
+
+Pregunta 10
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Cuál de las siguientes es una secuencia de estados de un proceso?
+
+Pregunta 10Respuesta
+
+a.
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo núcleo ➝ Dormido en memoria principal ➝ Preparado para ejecución en memoria principal ➝ Zombi
+
+
+b.
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo núcleo ➝ Expropiado ➝ Ejecutándose en modo núcleo ➝ Zombi
+
+
+c.
+Creado ➝ Preparado para ejecución en memoria principal ➝ Preparado para ejecución en memoria secundaria ➝ Ejecutándose en modo núcleo ➝ Zombi
+
+
+d.
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo núcleo ➝ Expropiado ➝ Ejecutándose en modo usuario ➝ Ejecutándose en modo núcleo ➝ Zombi
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Creado ➝ Preparado para ejecución en memoria principal ➝ Ejecutándose en modo núcleo ➝ Expropiado ➝ Ejecutándose en modo usuario ➝ Ejecutándose en modo núcleo ➝ Zombi
+
+Pregunta 11
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Cuál de las siguientes NO es una característica atribuible a la programación concurrente?
+
+Pregunta 11Respuesta
+
+a.
+Un programa concurrente se puede ejecutar en un solo procesador mediante una ejecución intercalada
+
+
+b.
+Los modelos de programación concurrente son necesariamente no deterministas
+
+
+c.
+Se busca utilizar modelos de programación deterministas
+
+
+d.
+Es una técnica de estructuración de los programas en la que hay múltiples hilos de control o procesos
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Se busca utilizar modelos de programación deterministas
+
+Pregunta 12
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Qué es el PID?
+
+Pregunta 12Respuesta
+
+a.
+Es el identificador del programa en el S.O.
+
+
+b.
+Es como se conoce al programa intercambiador de procesos de un S.O.
+
+
+c.
+Es el identificador del proceso en el S.O.
+
+
+d.
+Es como se conoce al programa que arranca al S.O.
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Es el identificador del proceso en el S.O.

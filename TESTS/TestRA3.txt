@@ -1,0 +1,154 @@
+1. ¿Cómo se llama la operación para asignar una dirección y un número de puerto en la creación de un Server Socket en Java?
+
+
+a.
+setAddress
+
+b.
+setAddressAndPort
+
+
+c.
+bind (Correcta)
+
+
+d.
+assign
+
+2. ¿Cómo se llama la clase que se utiliza en Java para crear y operar con sockets datagram?
+
+
+a.
+DatagramSocket (Correcta)
+
+
+b.
+Socket
+
+
+c.
+SocketDatagram
+
+d.
+Datagram
+
+¿Cómo se llama al proceso de difundir un mensaje al destinatario más cercano de una red?
+
+
+a.
+Anycast (Correcta)
+
+
+b.
+Broadcast
+
+
+c.
+Multicast
+
+
+d.
+Unicast
+
+¿Qué característica NO es una característica fundamental de un sistema distribuido?
+
+a.
+Ninguna respuesta es correcta
+
+
+b.
+Los elementos que forman el sistema distribuido están sincronizados entre sí (comparten el mismo reloj)
+(Correcta)
+
+c.
+Está formado por más de un elemento computacional distinto e independiente
+
+
+d.
+Los elementos del sistema están conectados a una red de comunicaciones que les permite comunicarse entre sí
+
+5. Para establecer comunicaciones entre dos aplicaciones usando Sockets
+
+Pregunta 5Seleccione una:
+
+a.
+Una de las partes debe crear un Socket Server
+
+
+b.
+Ninguna de las respuestas es correcta
+
+
+c.
+Han de usar sockets, pero esté ya está creado en la red
+
+d.
+Ambas deben crear sus respectivos Sockets (Correcta)
+
+
+¿Qué característica NO pertenece al protocolo UDP?
+
+a.
+No orientado a la conexión
+
+
+b.
+No garantiza que los mensajes lleguen en el mismo orden que fueron enviados
+
+
+c.
+Orientado a la conexión (Correcta)
+
+
+d.
+Permite enviar mensajes de 64 KB como máximo.
+
+7. En un modelo de comunicación en grupo ¿Cómo se llama a la forma de transmitir los mensajes al grupo?
+
+a.
+Difusión
+
+
+b.
+Radiado (Correcta)
+
+
+c.
+Publicación
+
+d.
+Divulgación
+
+8. Atendiendo a la fiabilidad en el nivel de transporte. ¿Qué protocolo es mejor?
+
+a.
+TCP (Correcta)
+
+
+b.
+Cualquiera
+
+
+c.
+Ninguno
+
+
+d.
+UDP
+
+9. ¿A qué tipo de modelo de comunicación pertenece la siguiente figura?
+
+
+a.
+Modelo peer-to-peer
+
+b.
+Modelo cliente servidor (Correcta)
+
+
+c.
+Ninguno de los anteriores
+
+
+d.
+Modelo de comunicación en grupo

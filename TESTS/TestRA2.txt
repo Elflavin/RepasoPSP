@@ -1,0 +1,322 @@
+El estado Runnable de un hilo sería que...
+
+Pregunta 1Respuesta
+
+a.
+El proceso no se encuentra en ejecución, aunque está preparado para hacerlo
+
+
+b.
+Ninguna respuesta es correcta
+
+
+c.
+El hilo está preparado para ejecutarse y puede estar ejecutándose.
+
+
+d.
+El hilo está preparado para su ejecución, pero todavía no se ha realizado la llamada correspondiente en la ejecución del código del programa
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+El hilo está preparado para ejecutarse y puede estar ejecutándose.
+
+Pregunta 2
+Incorrecta
+Se puntúa -0,08 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Cuál de las siguientes afirmaciones es FALSA en relación a la utilización de hilos?
+
+Pregunta 2Respuesta
+
+a.
+Crear nuevos hilos no supone ninguna reserva adicional de memoria por parte del sistema operativo
+
+
+b.
+Los hilos permiten a los procesos continuar atendiendo peticiones del usuario
+
+
+c.
+Ninguna de las afirmaciones es falsa
+
+
+d.
+La utilización de hilos permite aprovechar la existencia de más de un núcleo
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Ninguna de las afirmaciones es falsa
+
+Pregunta 3
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+Con respecto a la planificación de hilos, indique la afirmación FALSA
+
+Pregunta 3Respuesta
+
+a.
+Java, por defecto, utiliza un planificador apropiativo cuando un hilo que se está ejecutando pasa al estado Runnable. Si los hilos tienen la misma prioridad, será el planificador el que asigne a uno u otro el núcleo correspondiente para su ejecución utilizando tiempo compartido.
+
+
+b.
+Cuando se trabaja con varios hilos, no será necesario pensar en la planificación de threads, dado que el algoritmo de planificación que se esté utilizando se asegurará de que cada hilo tiene una oportunidad justa de ejecutarse.
+
+
+c.
+Cuando se trabaja con varios hilos, a veces es necesario pensar en la planificación de threads, para asegurarse de que cada hilo tiene una oportunidad justa de ejecutarse
+
+
+d.
+El planificador del sistema operativo determina qué proceso es el que se ejecuta en un determinado momento en el procesador. Dentro de ese proceso, el hilo que se ejecutará estará en función del número de núcleos disponibles y del algoritmo de planificación que se esté utilizando
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Cuando se trabaja con varios hilos, no será necesario pensar en la planificación de threads, dado que el algoritmo de planificación que se esté utilizando se asegurará de que cada hilo tiene una oportunidad justa de ejecutarse.
+
+Pregunta 4
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+Con respecto a la gestión de memoria de los hilos...
+
+Pregunta 4Respuesta
+
+a.
+En un programa multihilo, cada hilo tiene su propio contador de programa, conjunto de registros de la CPU, recursos y datos.
+
+
+b.
+En un programa multihilo, cada hilo tiene su propio contador de programa, conjunto de registros de la CPU y pila para indicar por dónde se está ejecutando
+
+
+c.
+En un programa multihilo, cada hilo tiene su propio contador de programa, recursos, datos y pila para indicar por dónde se está ejecutando.
+
+
+d.
+En un programa multihilo, cada hilo tiene sus propios recursos, datos y pila para indicar por dónde se está ejecutando.
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+En un programa multihilo, cada hilo tiene su propio contador de programa, conjunto de registros de la CPU y pila para indicar por dónde se está ejecutando
+
+Pregunta 5
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Cómo se denomina cuando un hilo nunca llega a tomar el control de un recurso?
+
+Pregunta 5Respuesta
+
+a.
+Condiciones de carrera
+
+
+b.
+Inanición
+
+
+c.
+Inconsistencia de memoria
+
+
+d.
+Interbloqueo
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Inanición
+
+Pregunta 6
+Parcialmente correcta
+Se puntúa 0,33 sobre 0,50
+Marcar pregunta
+Enunciado de la pregunta
+Dado el siguiente programa escrito en JAVA, el cual crea un pool de hilos, rellena los huecos con la información necesaria.
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ThreadPoolExample {
+    public static void main(String[] args) {
+        // Crear un pool de hilos con 3 hilos en el pool
+        try (ExecutorService executorService = Executors.Respuesta 1 Pregunta 6
+newFixedThreadPool
+(3))
+
+           // Ejecutar tareas en el pool de hilos
+           for (int i = 0; i < 5; i++) {
+              // Se envía una tarea al pool de hilos
+              executorService.Respuesta 2 Pregunta 6
+execute
+(new Tarea(i + 1));
+           }
+
+           // Apagar el pool de hilos después de que todas las tareas estén completas
+           executorService.Respuesta 3 Pregunta 6
+shutwdown
+();
+        }
+    }   
+}
+Pregunta 7
+Incorrecta
+Se puntúa -0,08 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+En relación a la prioridad de un hilo en Java indica la afirmación FALSA
+
+Pregunta 7Respuesta
+
+a.
+El establecer prioridades a los hilos permite un reparto más eficiente de los recursos disponibles
+
+
+b.
+Las prioridades de los threads toman valores enteros que oscilan entre la máxima prioridad MAX_PRIORITY (normalmente tiene el valor 10) y la mínima prioridad MIN_PRIORITY (valor 1)
+
+
+c.
+Ninguna de las respuestas es falsa
+
+
+d.
+Cuando se crea un nuevo thread, éste siempre se inicializa con la prioridad por defecto NORM_PRIORITY (valor 5)
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Cuando se crea un nuevo thread, éste siempre se inicializa con la prioridad por defecto NORM_PRIORITY (valor 5)
+
+Pregunta 8
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+Una secuencia de estados de un hilo podría ser
+
+Pregunta 8Respuesta
+
+a.
+Listo ➝ Pudiendo ejecutar ➝ Suspendido ➝ Muerto
+
+
+b.
+Listo ➝ Pudiendo ejecutar ➝ Dormido ➝ Muerto
+
+
+c.
+Listo ➝ Pudiendo ejecutar ➝ Bloqueado ➝ En Espera ➝ Listo ➝ Pudiendo ejecutar ➝ Muerto
+
+
+d.
+Listo ➝ Pudiendo ejecutar ➝ Bloqueado ➝ Listo ➝ Pudiendo ejecutar ➝ Muerto
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Listo ➝ Pudiendo ejecutar ➝ Bloqueado ➝ Listo ➝ Pudiendo ejecutar ➝ Muerto
+
+Pregunta 9
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+Para modificar la prioridad de un hilo en Java usaremos el método
+
+Pregunta 9Respuesta
+
+a.
+synchronizePriority
+
+
+b.
+setPriority
+
+
+c.
+putPriority
+
+
+d.
+modifyPriority
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+setPriority
+
+Pregunta 10
+Correcta
+Se puntúa 0,25 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+[RA2.k] ¿Cómo se denomina cuando dos o más hilos están esperando indefinidamente por un evento que solo puede generar un hilo bloqueado?
+
+Pregunta 10Respuesta
+
+a.
+Interbloqueo
+
+
+b.
+Inconsistencia de memoria
+
+
+c.
+Condiciones de carrera
+
+
+d.
+Inanición
+
+Retroalimentación
+Respuesta correcta
+La respuesta correcta es:
+Interbloqueo
+
+Pregunta 11
+Incorrecta
+Se puntúa -0,08 sobre 0,25
+Marcar pregunta
+Enunciado de la pregunta
+¿Cuáles son las fases a seguir a la hora de realizar un programa multihilo cooperativo?
+
+Pregunta 11Respuesta
+
+a.
+Descomposición funcional
+Partición
+Implementación
+
+b.
+Descomposición funcional
+Partición
+Comunicación
+
+
+c.
+Descomposición funcional
+Comunicación
+Implementación
+
+
+d.
+Ninguna respuesta es correcta
+
+Retroalimentación
+Respuesta incorrecta.
+La respuesta correcta es:
+Descomposición funcional
+Partición
+Implementación

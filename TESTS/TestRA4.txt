@@ -1,0 +1,233 @@
+1.¿Cómo podemos en un servicio web Java multihilos, proteger un recurso de accesos concurrentes?
+
+Pregunta 1Seleccione una:
+
+a.
+Creando un semáforo mutex
+
+
+b.
+Sincronizando el método
+
+
+c.
+No se puede proteger
+
+
+d.
+Con un semáforo mutex o con un método sincronizado (Correcta)
+
+2.En HTTP una respuesta que comienza con 5 es de
+
+Pregunta 2Seleccione una:
+
+a.
+Éxito
+
+
+b.
+Error de servidor (Correcta)
+
+
+c.
+Error de cliente
+
+
+d.
+Información
+
+3. ¿Qué usaremos para obtener en Springboot una variable que se va a enviar en un parámetro de la URL del tipo http://localhost:8080/SampleREST/{ID}/users ?
+
+
+Pregunta 3Seleccione una:
+
+a.
+@RequestParam ("id") String id
+
+
+b.
+@RequestVariable ("id") String id
+
+
+c.
+@PathParam ("id") String id
+
+
+d.
+ @PathVariable("id") String id (Correcta)
+
+4. En HTTP una petición de tipo HEAD
+
+Pregunta 4Seleccione una:
+
+a.
+Se utiliza para solicitar al servidor que le devuelva la petición que acaba de recibir del mismo cliente, a modo de eco
+
+
+b.
+Se utiliza para obtener información sobre el estado del servidor
+
+
+c.
+Se utiliza para solicitar una lista de las peticiones que el servidor acepta sobre una determinada URL (Correcta)
+
+
+d.
+Se utiliza para solicitar recursos
+
+5. HTTP es un protocolo...
+
+Pregunta 5Seleccione una:
+
+a.
+Ninguna respuesta es correcta
+
+
+b.
+Pueden o no tener estado (stateful o stateless).
+
+
+c.
+Sin estado (stateless) Correcta
+
+
+d.
+Con estado (stateful)
+
+6. Un protocolo que se usa para el acceso compartido a archivos, directorios, impresoras, puertos serie y otros recursos de una red.
+
+
+a.
+SMB (Correcta)
+
+
+b.
+NTP
+
+
+c.
+DHCP
+
+
+d.
+DNS
+
+7. ¿Cómo podemos en un servicio web posibilitar la comunicación simultánea de varios clientes con el servicio?
+
+Pregunta 7Seleccione una:
+
+a.
+Creando un hilo para cada petición (Correcta)
+
+
+b.
+Un servicio web no puede atender peticiones simultaneas
+
+
+c.
+Sólo se puede hacer con servicios web REST
+
+
+d.
+Sólo se puede hacer con servicios web SOAP
+
+8. ¿Cuál es el beneficio de usar TLS en las comunicaciones?
+
+Pregunta 8Seleccione una:
+
+a.
+Permite el uso de múltiples conexiones para realizar las comunicaciones
+
+
+b.
+Permite el uso de SSL
+
+
+c.
+Aplica un cifrado a las comunicaciones (Correcta)
+
+
+d.
+Permite el uso de SSL bajo múltiples conexiones facilitando y acelerando las comunicaciones entre cliente y servidor.
+
+9. Un servicio web SOAP se debe expresar de manera formal y pública la interfaz del servicio. Usualmente se usa para ello...
+
+Pregunta 9Seleccione una:
+
+a.
+Una especificación estándar para describir servicios basada en Markdown llamada WSMDL
+
+
+b.
+Una especificación estándar para describir servicios basada en XML llamada WSDL (Correcta)
+
+
+c.
+Una especificación estándar para describir servicios basada en JSON llamada WSJDL
+
+
+d.
+Una especificación estándar para describir servicios basada en HTML llamada WSHDL
+
+10. En cuestión de seguridad para emails...
+
+Pregunta 10Seleccione una:
+
+a.
+POP3 es seguro porque utiliza cifrado de extremo a extremo
+
+
+b.
+SMTP es seguro porque todos los servidores incorporan cifrado de comunicaciones
+
+
+c.
+POP3 y SMTP incorporan cifrado de las comunicaciones
+
+
+d.
+POP3 es más seguro con la extensión STARTTLS (Correcta)
+
+11. En un MOM que dos paradigmas de comunicación existen
+
+Pregunta 11Seleccione una:
+
+a.
+Centralizada y publicador/suscriptor
+
+
+b.
+Punto a punto y publicador con intermediarios
+
+
+c.
+Punto a punto y centralizada
+
+
+d.
+Punto a punto y publicador/suscriptor (Correcta)
+
+
+12. ¿Qué aporta la programación por capas en un servicio web?
+
+Pregunta 12Seleccione una:
+
+a.
+Todas las respuestas son correctas (Correcta)
+
+
+b.
+Alta escalabilidad
+
+
+c.
+Alta mantenibilidad
+
+
+d.
+Bajo acoplamiento
+
+
+
+
+
